@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('normalize.css');
+@import url('estilos.css');
+@import url('mediaqueries.css');
+
+/*
+Colores:
+    <div class="caja uno"></div>
+    <div class="caja dos"></div>
+    <div class="caja tres"></div>
+    <div class="caja cuatro"></div>
+    <div class="caja cinco"></div>
+
+.caja {
+    width: 100px;
+    height: 100px;
+}
+
+.uno { background: #071E22; }
+.dos { background: #1D7874; }
+.tres { background: #679289; }
+.cuatro { background: #F4C095; }
+.cinco { background: #EE2E31; }
+*/

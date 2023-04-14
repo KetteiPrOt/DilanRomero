@@ -1,0 +1,107 @@
+@media screen and (max-width: 1025px) {
+    .contenido-principal .acerca-servicios .acerca-de .mapa {
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .cabezera .fondo-cabezera {
+        padding: 10px 10%;
+    }
+
+    .contenido-principal .acerca-servicios {
+        display: block;
+    }
+
+    .contenido-principal .acerca-servicios .acerca-de {
+        width: 100%;
+    }
+
+    .contenido-principal .acerca-servicios .acerca-de .mapa {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+
+    .contenido-principal .contacto .redes-sociales {
+        padding: 0 18%;
+    }
+
+    .contenido-principal .contacto .redes-sociales .enlace-red-social {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .cabezera .logotipo {
+        display: none;
+    }
+
+    .cabezera .fondo-cabezera {
+        padding: 20px 10%;
+    }
+    
+    .cabezera .menu-navegacion {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .cabezera .menu-navegacion .enlace-navegacion {
+        margin: 0;
+    }
+
+    .contenido-principal .fondo-seccion-inicio .inicio {
+        padding: 200px 0;
+        flex-direction: column;
+    }
+
+    .contenido-principal .fondo-seccion-inicio .inicio .fotografia {
+        width: 40%;
+    }
+
+    .contenido-principal .fondo-seccion-inicio .inicio .parrafo {
+        margin-left: 0;
+    }
+
+    .contenido-principal .fondo-seccion-inicio .inicio .parrafo .normal {
+        font-size: 25px;
+    }
+    
+    .contenido-principal .fondo-seccion-inicio .inicio .parrafo .grande {
+        font-size: 40px;
+    }
+
+    .contenido-principal .servicios .contenedor-img {
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .contenido-principal .servicios .contenedor-img .enlace-catalogo {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .contenido-principal .servicios .contenedor-img .imagen {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .contenido-principal .servicios .contenedor-img .imagen-qr {
+        width: 45%;
+    }
+
+    .contenido-principal .contacto .redes-sociales {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .contenido-principal .fondo-seccion-inicio .inicio .parrafo .normal {
+        font-size: 20px;
+    }
+    
+    .contenido-principal .fondo-seccion-inicio .inicio .parrafo .grande {
+        font-size: 35px;
+    }
+}
