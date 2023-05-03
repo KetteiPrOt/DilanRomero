@@ -17,6 +17,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* html {
+    background: url("../media/xiaomiLogo.png");
+    background-size: 5%;
+    background-position: 100% 0%;
+    background-repeat: repeat-y;
+}*/
+
+body {
+    background: url("../media/appleLogo.png");
+    background-size: 5%;
+    background-repeat: repeat-y;
+} 
+
 /* --- --- header --- --- */
 
 .cabezera {
@@ -194,23 +207,26 @@
 
 /* --- --- main (Contacto) --- --- */
 
-.contenido-principal .contacto {
+.contenido-principal .contact-container {
     padding: var(--paddig-seccion);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.contenido-principal .contacto .titulo {
+.contenido-principal .contact-container .contacto .titulo {
     color: var(--color-secundario);
     font-weight: 700;
     cursor: default;
 }
 
-.contenido-principal .contacto .parrafo {
+.contenido-principal .contact-container .contacto .parrafo {
     font-size: 14px;
     line-height: 30px;
     cursor: default;
 }
 
-.contenido-principal .contacto .redes-sociales {
+.contenido-principal .contact-container .contacto .redes-sociales {
     width: 100%;
     padding: 0 20%;
     margin-top: 32px;
@@ -219,13 +235,22 @@
 
 }
 
-.contenido-principal .contacto .redes-sociales .enlace-red-social {
+.contenido-principal .contact-container .contacto .redes-sociales .enlace-red-social {
     width: 8%;
 }
 
-.contenido-principal .contacto .redes-sociales .enlace-red-social .red-social {
+.contenido-principal .contact-container .contacto .redes-sociales .enlace-red-social .red-social {
     width: 100%;
     height: 100%;
+}
+
+.contenido-principal .contact-container .phone-number {
+    width: 20%;
+    padding-top: 50px;
+}
+
+.contenido-principal .contact-container .phone-number .image {
+    width: 100%;
 }
 
 /* --- --- footer --- --- */

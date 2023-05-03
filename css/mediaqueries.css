@@ -23,11 +23,15 @@
         margin-bottom: 30px;
     }
 
-    .contenido-principal .contacto .redes-sociales {
+    .contenido-principal .contact-container .contacto .redes-sociales {
         padding: 0 18%;
     }
 
-    .contenido-principal .contacto .redes-sociales .enlace-red-social {
+    .contenido-principal .contact-container .phone-number {
+        width: 30%;
+    }
+
+    .contenido-principal .contact-container .contacto .redes-sociales .enlace-red-social {
         width: 10%;
     }
 }
@@ -91,8 +95,13 @@
         width: 45%;
     }
 
-    .contenido-principal .contacto .redes-sociales {
+    .contenido-principal .contact-container .contacto .redes-sociales {
         padding: 0;
+    }
+
+    .contenido-principal .contact-container .phone-number {
+        width: 50%;
+        padding-top: 25px;
     }
 }
 
