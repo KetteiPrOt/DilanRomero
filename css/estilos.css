@@ -17,19 +17,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* html {
-    background: url("../media/xiaomiLogo.png");
-    background-size: 5%;
-    background-position: 100% 0%;
-    background-repeat: repeat-y;
-}*/
-
-body {
-    background: url("../media/appleLogo.png");
-    background-size: 5%;
-    background-repeat: repeat-y;
-} 
-
 /* --- --- header --- --- */
 
 .cabezera {
